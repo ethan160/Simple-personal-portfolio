@@ -1,97 +1,170 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-     <link rel="stylesheet" href="main.css">
-
-    <title>Ethan Ji</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Harper Liu | Data Engineer</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="header">
-        <h1>Ethan's Portfolio</h1>
-        <p>My first personal website</p>
-    </div>
-
-    <div class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">Leran HMTL</a>
-        <a href="#">Learn CSS</a>
-        <a href="#">Learn JavaScript</a>
-        <a href="#" class="right">Other Info</a>
-    </div>
-
-    <div class="row">
-        <div class="main">
-            <h2>Brief intro of me </h2>
-            <h5>Title description, June12, 2021</h5>
-            <!-- <img id="pic1" src="/pics/pic1.jpg" style="height:200px;">img4</div> -->
-            <div class="container">
-                <img src="/pics/pic1.jpg" alt="simple" style="width:100%;height:200px;">
+    <header class="hero" id="home">
+        <nav class="nav">
+            <div class="logo">HL</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact" class="cta">Contact</a>
             </div>
-            <!-- <div class="fakeimge" src="/pics/pic1.jpg" style="height:200px;">Imge</div> -->
-            <p>some text</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil obcaecati provident totam cumque dicta aliquam repellendus rerum perspiciatis aperiam ratione minima unde ipsam deleniti commodi ab dolore, nam corrupti suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, vel facilis aperiam, vitae quia modi mollitia quidem, obcaecati odit at adipisci beatae aspernatur. Nesciunt, unde consequuntur. Placeat aspernatur earum molestiae?</p>
-            <br>
-
-            <h2>Title heading</h2>
-            <h5>tile descitption, June12, 2021</h5>
-            <div class="container">
-                <img src="/pics/pic6.jpg" alt="simple" style="width:100%;height:400px;">
+        </nav>
+        <div class="hero-content">
+            <p class="eyebrow">Data Engineer • Pipeline Architect • Cloud Analytics</p>
+            <h1>Harper Liu</h1>
+            <p class="subtitle">
+                I design reliable data pipelines and analytics platforms that turn raw data into trustworthy insight.
+                Focused on scalable ingestion, clean modeling, and business-ready reporting.
+            </p>
+            <div class="hero-actions">
+                <a class="button" href="#projects">View Projects</a>
+                <a class="button ghost" href="mailto:harper.liu@email.com">harper.liu@email.com</a>
             </div>
-            <p> some text</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, consectetur sequi! Consequuntur nulla enim veritatis, voluptatibus explicabo sed praesentium placeat eaque non molestias dignissimos architecto molestiae ratione vitae, rerum tenetur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur quas laudantium impedit. Soluta culpa quibusdam incidunt voluptates at ducimus quasi quidem? Libero consectetur enim rerum nisi, quisquam pariatur totam!</p>
-        </div>
-
-        <div class="side">
-            <h2>About me</h2>
-            <h5>Photo of me:</h5>
-            <div class="container">
-                <img src="/pics/pic2.jpg" alt="simple" style="width:100%;height:200px;">
-            </div>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis porro quam debitis reiciendis excepturi atque
-                expedita? Accusamus totam voluptatem atque natus, temporibus laudantium rerum adipisci mollitia velit sed!
-                Praesentium, quos.</p>
-            <h3> More text</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio pariatur saepe minima quisquam iure unde
-                cum, accusamus illum molestias commodi, veniam, illo facere corporis blanditiis voluptatum autem deleniti
-                mollitia totam!</p>
-            <div class="container">
-                <!-- <img id="subrogation" src="static/img/sub-02-subrogation.jpg" class="rounded float-left" alt="subrogation photo"
-                                        style="width:400px;height:200px;"> -->
-
-                <img src="/pics/pic3.jpg" alt="simple" style="width:100%;height:80px;">
-            </div>
-            <div class="container">
-                <img src="/pics/pic4.jpg" alt="simple" style="width:100%;height:80px;">
-            </div>
-            <div class="container">
-                <img src="/pics/pic5.jpg" alt="simple" style="width:100%;height:80px;">
+            <div class="hero-stats">
+                <div>
+                    <span>6+</span>
+                    <p>Years in data engineering</p>
+                </div>
+                <div>
+                    <span>40TB</span>
+                    <p>Processed monthly</p>
+                </div>
+                <div>
+                    <span>99.8%</span>
+                    <p>Pipeline success rate</p>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
 
-    <div class="footer">
-        <h2>Footer</h2>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
+    <main>
+        <section id="about" class="section about">
+            <div>
+                <h2>About</h2>
+                <p>
+                    I build end-to-end data platforms for product, growth, and finance teams. My strength is bridging
+                    raw event data with trusted analytics models while maintaining cost-efficient cloud infrastructure.
+                </p>
+                <p>
+                    Recently, I led a migration from legacy ETL to a modern streaming stack, improving latency
+                    from 12 hours to under 15 minutes.
+                </p>
+            </div>
+            <div class="info-card">
+                <h3>Quick facts</h3>
+                <ul>
+                    <li><strong>Location:</strong> Singapore (open to remote)</li>
+                    <li><strong>Focus:</strong> Batch + streaming pipelines</li>
+                    <li><strong>Tooling:</strong> Airflow, Spark, dbt, Kafka</li>
+                    <li><strong>Cloud:</strong> AWS, GCP, Snowflake</li>
+                </ul>
+            </div>
+        </section>
 
-    
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div>
+                        <h3>Lead Data Engineer</h3>
+                        <p class="meta">Atlas Commerce • 2021 - Present</p>
+                    </div>
+                    <p>
+                        Designed a lakehouse architecture with delta tables and dbt models, enabling self-service analytics
+                        for 120+ stakeholders while reducing query costs by 35%.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div>
+                        <h3>Senior Data Engineer</h3>
+                        <p class="meta">Lumen Health • 2018 - 2021</p>
+                    </div>
+                    <p>
+                        Built real-time patient telemetry pipelines using Kafka and Spark Structured Streaming, ensuring
+                        compliance with HIPAA and delivering minute-level dashboards.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div>
+                        <h3>Data Engineer</h3>
+                        <p class="meta">Pixel Insights • 2016 - 2018</p>
+                    </div>
+                    <p>
+                        Automated ingestion and quality checks for marketing analytics data, boosting data freshness by 5x.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Selected Projects</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>Realtime Supply Chain Monitor</h3>
+                    <p>
+                        Built a streaming dashboard for shipment tracking with Kafka, Flink, and Grafana.
+                        Reduced incident response from hours to minutes.
+                    </p>
+                    <a href="https://github.com" target="_blank" rel="noreferrer">View project</a>
+                </article>
+                <article class="card">
+                    <h3>Customer 360 Warehouse</h3>
+                    <p>
+                        Unified product, sales, and marketing data into a Snowflake warehouse using dbt and automated QA.
+                    </p>
+                    <a href="https://github.com" target="_blank" rel="noreferrer">View project</a>
+                </article>
+                <article class="card">
+                    <h3>Analytics Quality Framework</h3>
+                    <p>
+                        Created data quality checks and alerting with Great Expectations and Slack workflows.
+                    </p>
+                    <a href="https://github.com" target="_blank" rel="noreferrer">View project</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <h2>Skills</h2>
+            <div class="pill-group">
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Apache Spark</span>
+                <span>Kafka</span>
+                <span>Airflow</span>
+                <span>dbt</span>
+                <span>Snowflake</span>
+                <span>BigQuery</span>
+                <span>Terraform</span>
+                <span>Data Modeling</span>
+                <span>Observability</span>
+                <span>Data Governance</span>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="section footer">
+        <div>
+            <h2>Let’s build something resilient.</h2>
+            <p>Open to data platform consulting, full-time roles, and mentoring.</p>
+        </div>
+        <div class="contact-links">
+            <a href="mailto:harper.liu@email.com">harper.liu@email.com</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+    </footer>
 </body>
-
 </html>
-
